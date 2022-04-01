@@ -1,0 +1,357 @@
+/* Common fields  */
+
+@media screen and (max-width: 1000px) {
+  :root {
+    --pseudo-text: rotate(0deg);
+  }
+  * {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Rubik", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  /* section-1 */
+  .charger img {
+    max-width: 100%;
+  }
+
+  .heading img {
+    max-width: 250px;
+  }
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-1 .content {
+    background-color: #0862a9;
+  }
+
+  .content h1 {
+    color: white;
+  }
+  .content img {
+    max-width: 100%;
+  }
+
+  .text_heading {
+    font-size: 28px;
+    margin-left: 15px;
+    padding-top: 22px;
+  }
+
+  .text_heading h1 span {
+    color: #2ecc71;
+  }
+
+  .tick_points i {
+    color: white;
+    font-size: 27px;
+  }
+  .tick_points p {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .tick_points {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 13px;
+  }
+
+  .tick_content {
+    margin-top: 25px;
+    margin-left: 12px;
+  }
+
+  /* section-2  */
+  .section-2 {
+    margin-left: 12px;
+    margin-top: 30px;
+  }
+
+  .section-2 h1 {
+    font-size: 31px;
+    line-height: 40px;
+  }
+
+  .repair-content img {
+    max-width: 180px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .repair_text {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-stretch: 0.2rem;
+  }
+  .repair_text_theory {
+    font-size: 19px;
+    font-weight: 3rem;
+    font-stretch: 0.5rem;
+  }
+
+  /* section-3 */
+  .section-3 {
+    background-color: #0862a9;
+    color: white;
+    margin-top: 43px;
+    margin-bottom: 42px;
+  }
+  .section-3 h1 {
+    margin-left: 12px;
+    padding-top: 23px;
+    font-size: 33px;
+  }
+
+  .section3_para p {
+    margin-left: 12px;
+    margin-top: 17px;
+    line-height: 1.8rem;
+    font-weight: 62px;
+    font-size: 20px;
+  }
+
+  .section3_image img {
+    max-width: 100%;
+    margin-top: 32px;
+  }
+
+  .section3_lists {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .section3_checklist {
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+  }
+
+  .section3_formargin {
+    margin-bottom: 45px;
+  }
+
+  /* section-4 */
+  .section-4 {
+    margin-left: 12px;
+    margin-bottom: 40px;
+  }
+  .section-4 .repair-content img {
+    max-width: 100px;
+  }
+  .section-4 h1 {
+    font-size: 35px;
+  }
+
+  /* section-5 */
+  .section-5 {
+    background-color: #0862a9;
+    color: white;
+  }
+  .section-5 h1 {
+    font-size: 35px;
+    margin-left: 12px;
+    padding-top: 55px;
+  }
+
+  .card {
+    margin-left: 12px;
+    margin-top: 33px;
+    width: 100%;
+  }
+
+  .section-5 .card .person_name .avatar {
+    height: 100px;
+    width: 100px;
+  }
+  .section-5 .card .person_name .avatar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .section-5 .person_name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section-5 .avatar_name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .section-5 .avatar_name h3 {
+    font-size: 23px;
+  }
+  .section-5 .avatar_name p {
+    font-size: 17px;
+  }
+
+  .section-5 .opinion {
+    margin-top: 27px;
+    margin-bottom: 23px;
+  }
+  .section-5 .opinion p {
+    line-height: 1.7rem;
+    font-weight: 550;
+    font-stretch: 1.4rem;
+    font-size: 19px;
+  }
+  .section-5 .timeline {
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 83px;
+  }
+
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  .slides {
+    display: flex;
+    width: 300%;
+    height: 500px;
+  }
+
+  .slides input {
+    display: none;
+  }
+
+  .slide {
+    width: 100%;
+    transition: 2s;
+  }
+  .navigation-manual {
+    position: relative;
+    margin-top: -103px;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .manual-btn {
+    border: 2px solid rgb(59, 56, 56);
+    background-color: rgb(41, 39, 39);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .manual-btn:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .manual-btn:hover {
+    background-color: whitesmoke;
+  }
+
+  #radio1:checked ~ .first {
+    margin-left: 2%;
+  }
+  /* #radio2:checked ~ .first{
+      margin-left: -50%;
+  }
+  #radio3:checked ~ .first{
+      margin-left: -8%;
+  } */
+
+  /* section-6 */
+  .section-6 {
+    margin-top: 55px;
+    margin-right: 12px;
+    margin-bottom: 75px;
+  }
+  .section-6 h2 {
+    color: black;
+    font-size: 37px;
+  }
+  .container {
+    margin-left: 12px;
+    /* padding: 4rem; */
+    width: 100%;
+  }
+
+  .accordion {
+    margin-top: 15px;
+  }
+
+  .accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #1b1c1d;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .accordion a::after {
+    font-family: "Ionicons";
+    content: "\f123";
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #0f1011;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    /* transform: var(--pseudo-text); */
+  }
+  .accordion a::after:hover {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .accordion-item {
+    margin-bottom: 32px;
+  }
+  .accordion-item a {
+    font-weight: 600;
+  }
+  .accordion .content {
+    opacity: 0;
+    /* padding: 0 1rem; */
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+  }
+  .accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+  }
+  .accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+  }
+}
